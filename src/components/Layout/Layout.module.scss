@@ -1,0 +1,89 @@
+.link {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #ffffff;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    &:first-child {
+      margin-right: auto;
+      margin-left: 22px;
+    }
+  }
+  .header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .Outlet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .createAticle {
+    border-radius: 5px;
+    border: 1px solid #52c41a;
+    display: flex;
+    width: 92px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #52c41a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-right: 26px;
+    text-decoration: none;
+  }
+  .wraper {
+    display: flex;
+    align-items: center;
+  }
+  .login {
+    display: flex;
+  }
+  .avatar {
+    margin-right: 27px;
+  }
+  .name {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 13px;
+    text-decoration: none;
+  }
+  .logOut {
+    width: 109px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 22px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .network {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 39, 220);
+    border-radius: 5px;
+  }
